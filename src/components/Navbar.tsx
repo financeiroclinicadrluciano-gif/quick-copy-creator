@@ -60,14 +60,14 @@ const Navbar = () => {
       {/* Center links */}
       <ul className="flex items-center gap-10 list-none absolute left-1/2 -translate-x-1/2">
         <li>
-          <a href="#" className="text-[12px] font-medium tracking-[2px] uppercase no-underline pb-1 transition-colors"
-            style={{ color: "var(--text-main)", borderBottom: "1px solid var(--gold)" }}>
+          <a href="#" className="text-[12px] font-medium tracking-[2px] uppercase no-underline transition-colors hover:text-[var(--gold-light)]"
+            style={{ color: "var(--text-muted-raw)" }}>
             Home
           </a>
         </li>
         <li>
-          <a href="#" className="text-[12px] font-medium tracking-[2px] uppercase no-underline transition-colors hover:text-[var(--gold-light)]"
-            style={{ color: "var(--text-muted-raw)" }}>
+          <a href="#" className="text-[12px] font-medium tracking-[2px] uppercase no-underline pb-1 transition-colors"
+            style={{ color: "var(--text-main)", borderBottom: "1px solid var(--gold)" }}>
             DOC365
           </a>
         </li>
