@@ -34,12 +34,8 @@ const Navbar = () => {
           Blog
         </a>
         <a href="https://wa.me/5541992790960" target="_blank" rel="noopener noreferrer"
-          className="text-[11px] font-medium tracking-[2px] uppercase no-underline px-5 py-2 rounded-full transition-all"
-          style={{
-            border: "1px solid rgba(201,168,76,0.4)",
-            color: "var(--gold-light)",
-          }}>
-          Agendar
+          className="shiny-cta-gold !py-2 !px-5 !text-[11px]">
+          <span>Agendar</span>
         </a>
       </nav>
     );
@@ -81,13 +77,8 @@ const Navbar = () => {
 
       {/* CTA button */}
       <a href="https://wa.me/5541992790960" target="_blank" rel="noopener noreferrer"
-        className="text-[11px] font-medium tracking-[2px] uppercase no-underline px-7 py-3 rounded-full transition-all hover:shadow-lg"
-        style={{
-          background: "linear-gradient(135deg, rgba(201,168,76,0.25) 0%, rgba(201,168,76,0.08) 100%)",
-          border: "1px solid rgba(201,168,76,0.4)",
-          color: "var(--gold-light)",
-        }}>
-        Entre em contato
+        className="shiny-cta-gold">
+        <span>Entre em contato</span>
       </a>
     </nav>
   );
