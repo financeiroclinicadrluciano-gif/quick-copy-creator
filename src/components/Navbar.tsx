@@ -20,13 +20,13 @@ const Navbar = () => {
           border: "1px solid rgba(201,168,76,0.15)",
         }}
       >
-        <img src={logoIcon} alt="Logo" className="h-[22px] w-auto" style={{ filter: "brightness(0.7) contrast(1.2)" }} />
-        <a href="#" className="text-[12px] font-medium tracking-[2px] uppercase no-underline pb-0.5 transition-colors"
-          style={{ color: "var(--text-main)", borderBottom: "1px solid var(--gold)" }}>
-          Home
-        </a>
+        <img src={logoIcon} alt="Logo" className="h-[28px] w-auto" style={{ filter: "brightness(0.7) contrast(1.2)" }} />
         <a href="#" className="text-[12px] font-medium tracking-[2px] uppercase no-underline transition-colors hover:text-[var(--gold-light)]"
           style={{ color: "var(--text-muted-raw)" }}>
+          Home
+        </a>
+        <a href="#" className="text-[12px] font-medium tracking-[2px] uppercase no-underline pb-0.5 transition-colors"
+          style={{ color: "var(--text-main)", borderBottom: "1px solid var(--gold)" }}>
           DOC365
         </a>
         <a href="#" className="text-[12px] font-medium tracking-[2px] uppercase no-underline transition-colors hover:text-[var(--gold-light)]"
