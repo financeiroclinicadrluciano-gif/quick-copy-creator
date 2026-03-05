@@ -52,12 +52,12 @@ const Hero = () => {
             com serviços abrangentes e personalizados para cada paciente.
           </motion.p>
 
-          <motion.a
-            initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }}
-            href="#form"
-            className="shiny-cta-gold">
-            <span>Agendar Consulta →</span>
-          </motion.a>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }}>
+            <a href="#form" className="shiny-cta-gold">
+              <span>Agendar Consulta →</span>
+            </a>
+          </motion.div>
         </div>
 
         {/* Video Card */}
