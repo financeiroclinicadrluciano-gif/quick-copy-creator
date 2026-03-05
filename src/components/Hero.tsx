@@ -55,20 +55,8 @@ const Hero = () => {
           <motion.a
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }}
             href="#form"
-            className="inline-flex items-center gap-3 px-10 py-4 text-[12px] font-medium tracking-[2.5px] uppercase no-underline cursor-pointer relative overflow-hidden transition-all group"
-            style={{
-              border: "1px solid var(--gold)",
-              color: "var(--gold-light)",
-              background: "transparent",
-              fontFamily: "'DM Sans', sans-serif"
-            }}>
-            <span className="absolute inset-0 bg-[rgba(201,168,76,0.08)] -translate-x-full group-hover:translate-x-0 transition-transform duration-400" />
-            <span className="relative z-10 flex items-center gap-3">
-              Agendar Consulta
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="transition-transform group-hover:translate-x-1">
-                <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#c9a84c" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </span>
+            className="shiny-cta-gold">
+            <span>Agendar Consulta →</span>
           </motion.a>
         </div>
 
