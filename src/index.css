@@ -184,17 +184,7 @@
 }
 
 .shiny-cta-gold::after {
-  --animation: shiny-shimmer linear infinite;
-  width: 100%;
-  aspect-ratio: 1;
-  background: linear-gradient(
-    -50deg,
-    transparent,
-    var(--shiny-cta-highlight),
-    transparent
-  );
-  mask-image: radial-gradient(circle at bottom, transparent 40%, black);
-  opacity: 0.6;
+  display: none;
 }
 
 .shiny-cta-gold span {
