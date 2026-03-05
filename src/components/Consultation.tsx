@@ -125,21 +125,8 @@ const Consultation = () => {
             </div>
           ))}
 
-          <button type="submit"
-            className="w-full mt-2 py-4 text-[12px] font-medium tracking-[2.5px] uppercase cursor-pointer transition-all relative overflow-hidden group"
-            style={{
-              background: "transparent",
-              border: "1px solid var(--gold)",
-              color: "var(--gold-light)",
-              fontFamily: "'DM Sans', sans-serif"
-            }}>
-            <span className="absolute inset-0 bg-[rgba(201,168,76,0.08)] -translate-x-full group-hover:translate-x-0 transition-transform duration-400" />
-            <span className="relative z-10 flex items-center justify-center gap-2">
-              Enviar Solicitação
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="#c9a84c" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-            </span>
+          <button type="submit" className="shiny-cta-gold w-full mt-2 !py-4">
+            <span>Enviar Solicitação →</span>
           </button>
         </form>
       </motion.div>
