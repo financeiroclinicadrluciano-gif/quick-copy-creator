@@ -192,10 +192,12 @@
 }
 
 .shiny-cta-gold span::before {
-  --size: calc(100% + 1rem);
+  --size: calc(100% + 0.5rem);
   width: var(--size);
-  height: var(--size);
-  box-shadow: inset 0 -1ex 2rem 4px var(--shiny-cta-highlight);
+  height: 115%;
+  border-radius: 999px;
+  background: radial-gradient(circle at 50% 100%, var(--shiny-cta-highlight), transparent 65%);
+  filter: blur(10px);
   opacity: 0;
   transition: opacity var(--transition);
   animation: calc(var(--duration) * 1.5) shiny-breathe linear infinite;
