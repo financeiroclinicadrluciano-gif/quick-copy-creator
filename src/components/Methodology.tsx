@@ -73,7 +73,7 @@ const Methodology = () => {
 
           {timelineItems.map((item, i) => (
             <div key={i} className={`flex gap-5 relative ${i < timelineItems.length - 1 ? "pb-7" : ""}`}>
-              <div className="w-[38px] h-[38px] flex-shrink-0 rounded-full flex items-center justify-center relative z-[1] text-[18px] font-semibold"
+              <div className="w-[38px] h-[38px] flex-shrink-0 rounded-full flex items-center justify-center relative z-[1] text-[18px] font-semibold leading-none text-center"
                 style={{
                   border: "1.5px solid var(--gold)",
                   background: "var(--bg-deep)",
